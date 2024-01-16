@@ -409,8 +409,6 @@ main {
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    /* position: ; */
-    /* right: 0; */
     margin-left: -360px;
     margin-bottom: -200px;
 }
@@ -434,6 +432,19 @@ main {
 .news-section {
     width: 1170px;
     margin: auto;
+}
+
+/* bonus section  */
+.sponsor-head {
+    width: 800px;
+    height: 500px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin:100px auto;
+}
+.sponsor-text{
+    text-align: center;
 }
 
 /* footer section */
@@ -477,3 +488,5 @@ footer {
     background: rgba(19, 19, 24, 0.10);
     margin: 50px 0;
 }
+
+/* resposive media quary */
